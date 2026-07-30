@@ -1,0 +1,8 @@
+{
+  "name": "Real Store",
+  "description": "Loja premium masculina com curadoria exclusiva, controle de inventário avançado e consultoria de estilo por IA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
