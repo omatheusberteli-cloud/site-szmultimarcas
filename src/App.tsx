@@ -16,6 +16,7 @@ import Navbar from './components/Navbar';
 import CartDrawer from './components/CartDrawer';
 import WhatsAppButton from './components/WhatsAppButton';
 import ErrorBoundary from './components/ErrorBoundary';
+import EagleIntro from './components/EagleIntro';
 
 import Home from './pages/Home';
 import Store from './pages/Store';
@@ -72,6 +73,7 @@ export default function App() {
       <ProductProvider>
         <Router>
           <ErrorBoundary>
+            <EagleIntro />
             <div className="min-h-screen bg-white text-gray-900 font-sans selection:bg-orange-500/30 flex flex-col justify-between">
               <div>
                 <Navbar user={user} profile={profile} />
